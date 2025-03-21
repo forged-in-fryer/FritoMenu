@@ -1,0 +1,44 @@
+# https://realm.github.io/SwiftLint/index.html
+opt_in_rules:
+  - all
+
+# Exclusions
+excluded:
+  - "**/.build/"
+
+# These conflict with swift-format or are othewise annoying to deal with
+disabled_rules:
+  - accessibility_label_for_image
+  - attributes
+  - conditional_returns_on_newline
+  - contrasted_opening_brace
+  - explicit_acl
+  - explicit_top_level_acl
+  - explicit_enum_raw_value
+  - file_name
+  - identifier_name
+  - nesting
+  - no_empty_block
+  - no_extension_access_modifier
+  - no_magic_numbers
+  - one_declaration_per_file
+  - prefixed_toplevel_constant
+  - redundant_type_annotation
+  - required_deinit
+  - switch_case_on_newline
+  - todo
+  - trailing_comma
+  - type_contents_order
+
+# Treat warnings as errors
+strict: true
+
+# https://realm.github.io/SwiftLint/line_length.html
+line_length:
+  ignores_comments: true
+
+# https://realm.github.io/SwiftLint/missing_docs.html
+missing_docs:
+  excludes_extensions: false
+  excludes_inherited_types: false
+  warning: [internal, open, private, public]

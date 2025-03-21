@@ -1,0 +1,12 @@
+# https://github.com/nicklockwood/SwiftFormat/blob/main/README.md
+
+# Rules
+--enable all
+
+# Exceptions
+--disable wrapSwitchCases
+
+# Options
+--organizationmode type
+--organizetypes class,actor,struct,enum,protocol,extension
+--propertytypes explicit
