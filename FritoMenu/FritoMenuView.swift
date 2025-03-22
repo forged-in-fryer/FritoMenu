@@ -37,15 +37,22 @@ struct FritoMenuView: View {
                     .animation(.default, value: model.order)
                 // Total
                 Divider()
-                Text(model.order.total.formatted(.currency(code: Locale.current.currency?.identifier ?? "CAD")))
-                    .font(.largeTitle)
-                    .fontWeight(.heavy)
-                    .monospaced()
-                    .padding(.vertical)
-                    .animation(.default, value: model.order.total)
-                    .contentTransition(.numericText())
+                HStack {
+                    Text("\(model.order.count)")
+                    Spacer()
+                    Text(model.order.total.formatted(.currency(code: Locale.current.currency?.identifier ?? "CAD")))
+                }
+                .font(.largeTitle)
+                .fontWeight(.heavy)
+                .monospaced()
+                .padding(.vertical)
+                .animation(.default, value: model.order.count)
+                .contentTransition(.numericText())
                 // Control
-                Button { model.order.clear() } label: {
+                Button {
+                    AudioClient.shared.playBeep()
+                    model.order.clear()
+                } label: {
                     Text("CLEAR")
                         .font(.title)
                         .fontWeight(.bold)

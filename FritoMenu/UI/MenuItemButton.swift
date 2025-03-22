@@ -31,7 +31,10 @@ struct MenuItemButton: View {
 
     /// Menu item button body.
     var body: some View {
-        Button { action?(item) } label: {
+        Button {
+            AudioClient.shared.playBeep()
+            action?(item)
+        } label: {
             VStack {
                 Text(item.abbreviation ?? item.name.initials)
                     .font(.title2)
@@ -40,6 +43,7 @@ struct MenuItemButton: View {
                     .font(.subheadline)
                     .fontWeight(.bold)
             }
+            .minimumScaleFactor(0.5)
             .monospaced()
             .padding(4)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
