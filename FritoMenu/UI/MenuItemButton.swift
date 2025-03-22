@@ -34,10 +34,10 @@ struct MenuItemButton: View {
         Button { action?(item) } label: {
             VStack {
                 Text(item.abbreviation ?? item.name.initials)
-                    .font(.title)
+                    .font(.title2)
                     .fontWeight(.heavy)
                 Text(item.price.formatted(.currency(code: Locale.current.currency?.identifier ?? "CAD")))
-                    .font(.headline)
+                    .font(.subheadline)
                     .fontWeight(.bold)
             }
             .monospaced()

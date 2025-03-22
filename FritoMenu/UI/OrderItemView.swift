@@ -89,11 +89,11 @@ struct OrderItemView: View {
         )
         OrderItemView(
             item: .init(
-                name: "Some Item",
-                cost: 4.00,
+                name: "Hamburger",
+                cost: 7.5,
                 options: [
-                    .init(name: "Some Option", cost: 2.00),
-                    .init(name: "Some Option", cost: 2.00),
+                    .init(name: "All Dressing", cost: 0),
+                    .init(name: "Extra Patty", cost: 1.5),
                     .init(name: "Some Option", cost: 2.00),
                 ]
             )
