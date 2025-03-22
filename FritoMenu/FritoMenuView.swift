@@ -45,7 +45,10 @@ struct FritoMenuView: View {
                     .animation(.default, value: model.order.total)
                     .contentTransition(.numericText())
                 // Control
-                Button { model.order.clear() } label: {
+                Button {
+                    AudioClient.shared.playBeep()
+                    model.order.clear()
+                } label: {
                     Text("CLEAR")
                         .font(.title)
                         .fontWeight(.bold)
