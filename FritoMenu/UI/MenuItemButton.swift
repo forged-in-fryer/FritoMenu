@@ -5,6 +5,7 @@
 //  Created by Khoa Tran on 2025-03-21.
 //
 
+import AVFoundation
 import SwiftUI
 
 /// Menu item button.
@@ -17,6 +18,9 @@ struct MenuItemButton: View {
 
     /// Menu item.
     let item: MenuItem
+    
+    /// Sound effect player.
+    @State private var player: AVAudioPlayer?
 
     // MARK: Lifecycle
 
@@ -31,7 +35,10 @@ struct MenuItemButton: View {
 
     /// Menu item button body.
     var body: some View {
-        Button { action?(item) } label: {
+        Button {
+            playSoundEffect()
+            action?(item)
+        } label: {
             VStack {
                 Text(item.abbreviation ?? item.name.initials)
                     .font(.title2)
@@ -48,6 +55,20 @@ struct MenuItemButton: View {
         .buttonBorderShape(.roundedRectangle(radius: 16))
         .buttonStyle(.bordered)
         .tint(item.colour)
+    }
+    
+    /// Play sound effect.
+    private func playSoundEffect() {
+        guard let url = Bundle.main.url(forResource: "beep", withExtension: "wav") else {
+            return
+        }
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            player?.play()
+        } catch {
+            // Do nothing
+            return
+        }
     }
 }
 
