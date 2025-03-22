@@ -45,7 +45,7 @@ extension Menu {
                 // Dogs
                 .init(name: "Hot Dog", price: 3.0, colour: .blue),
                 .init(name: "Cheese Dog", price: 3.75, colour: .blue),
-                .init(name: "Bacon Dog", price: 3.50, colour: .blue),
+                .init(name: "Bacon Dog", price: 5.5, colour: .blue),
                 .init(name: "Bacon Cheese Dog", price: 6.25, colour: .blue),
                 // Poutine
                 .init(name: "With Poutine", price: 8.0, colour: .brown),
@@ -65,10 +65,10 @@ extension Menu {
                 // Deep-fried cheese curds
                 .init(name: "Deep-Fried Cheese Curds", price: 10.0, abbreviation: "DFCC", colour: .orange),
                 // Chicken burger
-                .init(name: "Chicken Burger", price: 10.75, abbreviation: "CkB", colour: .brown),
+                .init(name: "Chicken Burger", price: 7.0, abbreviation: "CkB", colour: .brown),
                 // Sausages
-                .init(name: "Italian Sausage", price: 3.0, abbreviation: "IS", colour: .brown),
-                .init(name: "Polish Sausage", price: 3.0, abbreviation: "PS", colour: .brown),
+                .init(name: "Italian Sausage", price: 7.0, abbreviation: "IS", colour: .brown),
+                .init(name: "Polish Sausage", price: 7.0, abbreviation: "PS", colour: .brown),
                 // Popcorn chicken
                 .init(name: "Popcorn Chicken", price: 6.0, abbreviation: "PCk", colour: .mint),
                 .init(name: "Chicken Fingers", price: 7.5, abbreviation: "CF", colour: .mint),
