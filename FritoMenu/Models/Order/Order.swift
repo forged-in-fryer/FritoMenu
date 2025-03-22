@@ -21,6 +21,8 @@ struct Order: Equatable, Identifiable {
 
     // MARK: Computed Properties
 
+    var count: Int { items.count }
+
     /// Total.
     var total: Double { items.reduce(0) { $0 + $1.total } }
 
