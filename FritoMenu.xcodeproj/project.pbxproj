@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B8E7E72D8DFDF600463794 /* IdentifiedCollections in Frameworks */ = {isa = PBXBuildFile; productRef = A9B8E7E62D8DFDF600463794 /* IdentifiedCollections */; };
+		A9B8E81B2D8E118300463794 /* SFSafeSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = A9B8E81A2D8E118300463794 /* SFSafeSymbols */; };
+		A9BD6F8B2D88C4E7001E53CA /* .swiftformat in Resources */ = {isa = PBXBuildFile; fileRef = A9BD6F8A2D88C4E7001E53CA /* .swiftformat */; };
+		A9BD6F8D2D88C4F2001E53CA /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = A9BD6F8C2D88C4F2001E53CA /* .swift-version */; };
+		A9BD6F8F2D88C4FD001E53CA /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = A9BD6F8E2D88C4FD001E53CA /* .swiftlint.yml */; };
+		A9BD6F912D88C50A001E53CA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A9BD6F902D88C50A001E53CA /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BD6F6E2D88C4B3001E53CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BD6F552D88C4B2001E53CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BD6F5C2D88C4B2001E53CA;
+			remoteInfo = FritoMenu;
+		};
+		A9BD6F782D88C4B3001E53CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BD6F552D88C4B2001E53CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BD6F5C2D88C4B2001E53CA;
+			remoteInfo = FritoMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9BD6F5D2D88C4B2001E53CA /* FritoMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FritoMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BD6F6D2D88C4B3001E53CA /* FritoMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FritoMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BD6F772D88C4B3001E53CA /* FritoMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FritoMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BD6F8A2D88C4E7001E53CA /* .swiftformat */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftformat; sourceTree = "<group>"; };
+		A9BD6F8C2D88C4F2001E53CA /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		A9BD6F8E2D88C4FD001E53CA /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		A9BD6F902D88C50A001E53CA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A9D0D14D2D8E472800D67C6D /* Exceptions for "FritoMenu" folder in "FritoMenu" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A9BD6F5C2D88C4B2001E53CA /* FritoMenu */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A9BD6F5F2D88C4B2001E53CA /* FritoMenu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A9D0D14D2D8E472800D67C6D /* Exceptions for "FritoMenu" folder in "FritoMenu" target */,
+			);
+			path = FritoMenu;
+			sourceTree = "<group>";
+		};
+		A9BD6F702D88C4B3001E53CA /* FritoMenuTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FritoMenuTests;
+			sourceTree = "<group>";
+		};
+		A9BD6F7A2D88C4B3001E53CA /* FritoMenuUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FritoMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BD6F5A2D88C4B2001E53CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8E81B2D8E118300463794 /* SFSafeSymbols in Frameworks */,
+				A9B8E7E72D8DFDF600463794 /* IdentifiedCollections in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BD6F6A2D88C4B3001E53CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BD6F742D88C4B3001E53CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9BD6F542D88C4B1001E53CA = {
+			isa = PBXGroup;
+			children = (
+				A9BD6F902D88C50A001E53CA /* .gitignore */,
+				A9BD6F8C2D88C4F2001E53CA /* .swift-version */,
+				A9BD6F8A2D88C4E7001E53CA /* .swiftformat */,
+				A9BD6F8E2D88C4FD001E53CA /* .swiftlint.yml */,
+				A9BD6F5F2D88C4B2001E53CA /* FritoMenu */,
+				A9BD6F702D88C4B3001E53CA /* FritoMenuTests */,
+				A9BD6F7A2D88C4B3001E53CA /* FritoMenuUITests */,
+				A9BD6F5E2D88C4B2001E53CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BD6F5E2D88C4B2001E53CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD6F5D2D88C4B2001E53CA /* FritoMenu.app */,
+				A9BD6F6D2D88C4B3001E53CA /* FritoMenuTests.xctest */,
+				A9BD6F772D88C4B3001E53CA /* FritoMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9BD6F5C2D88C4B2001E53CA /* FritoMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BD6F812D88C4B3001E53CA /* Build configuration list for PBXNativeTarget "FritoMenu" */;
+			buildPhases = (
+				A9BD6F592D88C4B2001E53CA /* Sources */,
+				A9BD6F5A2D88C4B2001E53CA /* Frameworks */,
+				A9BD6F5B2D88C4B2001E53CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A9BD6F5F2D88C4B2001E53CA /* FritoMenu */,
+			);
+			name = FritoMenu;
+			packageProductDependencies = (
+				A9B8E7E62D8DFDF600463794 /* IdentifiedCollections */,
+				A9B8E81A2D8E118300463794 /* SFSafeSymbols */,
+			);
+			productName = FritoMenu;
+			productReference = A9BD6F5D2D88C4B2001E53CA /* FritoMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9BD6F6C2D88C4B3001E53CA /* FritoMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BD6F842D88C4B3001E53CA /* Build configuration list for PBXNativeTarget "FritoMenuTests" */;
+			buildPhases = (
+				A9BD6F692D88C4B3001E53CA /* Sources */,
+				A9BD6F6A2D88C4B3001E53CA /* Frameworks */,
+				A9BD6F6B2D88C4B3001E53CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BD6F6F2D88C4B3001E53CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9BD6F702D88C4B3001E53CA /* FritoMenuTests */,
+			);
+			name = FritoMenuTests;
+			packageProductDependencies = (
+			);
+			productName = FritoMenuTests;
+			productReference = A9BD6F6D2D88C4B3001E53CA /* FritoMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9BD6F762D88C4B3001E53CA /* FritoMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BD6F872D88C4B3001E53CA /* Build configuration list for PBXNativeTarget "FritoMenuUITests" */;
+			buildPhases = (
+				A9BD6F732D88C4B3001E53CA /* Sources */,
+				A9BD6F742D88C4B3001E53CA /* Frameworks */,
+				A9BD6F752D88C4B3001E53CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BD6F792D88C4B3001E53CA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A9BD6F7A2D88C4B3001E53CA /* FritoMenuUITests */,
+			);
+			name = FritoMenuUITests;
+			packageProductDependencies = (
+			);
+			productName = FritoMenuUITests;
+			productReference = A9BD6F772D88C4B3001E53CA /* FritoMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9BD6F552D88C4B2001E53CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A9BD6F5C2D88C4B2001E53CA = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A9BD6F6C2D88C4B3001E53CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A9BD6F5C2D88C4B2001E53CA;
+					};
+					A9BD6F762D88C4B3001E53CA = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A9BD6F5C2D88C4B2001E53CA;
+					};
+				};
+			};
+			buildConfigurationList = A9BD6F582D88C4B2001E53CA /* Build configuration list for PBXProject "FritoMenu" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9BD6F542D88C4B1001E53CA;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A9B8E7E52D8DFDF600463794 /* XCRemoteSwiftPackageReference "swift-identified-collections" */,
+				A9B8E8192D8E118300463794 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A9BD6F5E2D88C4B2001E53CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BD6F5C2D88C4B2001E53CA /* FritoMenu */,
+				A9BD6F6C2D88C4B3001E53CA /* FritoMenuTests */,
+				A9BD6F762D88C4B3001E53CA /* FritoMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BD6F5B2D88C4B2001E53CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BD6F8F2D88C4FD001E53CA /* .swiftlint.yml in Resources */,
+				A9BD6F8D2D88C4F2001E53CA /* .swift-version in Resources */,
+				A9BD6F912D88C50A001E53CA /* .gitignore in Resources */,
+				A9BD6F8B2D88C4E7001E53CA /* .swiftformat in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BD6F6B2D88C4B3001E53CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BD6F752D88C4B3001E53CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9BD6F592D88C4B2001E53CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BD6F692D88C4B3001E53CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BD6F732D88C4B3001E53CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BD6F6F2D88C4B3001E53CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BD6F5C2D88C4B2001E53CA /* FritoMenu */;
+			targetProxy = A9BD6F6E2D88C4B3001E53CA /* PBXContainerItemProxy */;
+		};
+		A9BD6F792D88C4B3001E53CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BD6F5C2D88C4B2001E53CA /* FritoMenu */;
+			targetProxy = A9BD6F782D88C4B3001E53CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9BD6F7F2D88C4B3001E53CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+			};
+			name = Debug;
+		};
+		A9BD6F802D88C4B3001E53CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9BD6F822D88C4B3001E53CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FritoMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A8VAC9MFY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FritoMenu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FritoMenu;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritomania.FritoMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A9BD6F832D88C4B3001E53CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FritoMenu/Preview Content\"";
+				DEVELOPMENT_TEAM = 4A8VAC9MFY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FritoMenu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FritoMenu;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritomania.FritoMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A9BD6F852D88C4B3001E53CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8VAC9MFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritomania.FritoMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FritoMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FritoMenu";
+			};
+			name = Debug;
+		};
+		A9BD6F862D88C4B3001E53CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8VAC9MFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritomania.FritoMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FritoMenu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FritoMenu";
+			};
+			name = Release;
+		};
+		A9BD6F882D88C4B3001E53CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8VAC9MFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritomania.FritoMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FritoMenu;
+			};
+			name = Debug;
+		};
+		A9BD6F892D88C4B3001E53CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4A8VAC9MFY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fritomania.FritoMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FritoMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9BD6F582D88C4B2001E53CA /* Build configuration list for PBXProject "FritoMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BD6F7F2D88C4B3001E53CA /* Debug */,
+				A9BD6F802D88C4B3001E53CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BD6F812D88C4B3001E53CA /* Build configuration list for PBXNativeTarget "FritoMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BD6F822D88C4B3001E53CA /* Debug */,
+				A9BD6F832D88C4B3001E53CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BD6F842D88C4B3001E53CA /* Build configuration list for PBXNativeTarget "FritoMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BD6F852D88C4B3001E53CA /* Debug */,
+				A9BD6F862D88C4B3001E53CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BD6F872D88C4B3001E53CA /* Build configuration list for PBXNativeTarget "FritoMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BD6F882D88C4B3001E53CA /* Debug */,
+				A9BD6F892D88C4B3001E53CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9B8E7E52D8DFDF600463794 /* XCRemoteSwiftPackageReference "swift-identified-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-identified-collections";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.1;
+			};
+		};
+		A9B8E8192D8E118300463794 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SFSafeSymbols/SFSafeSymbols";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9B8E7E62D8DFDF600463794 /* IdentifiedCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9B8E7E52D8DFDF600463794 /* XCRemoteSwiftPackageReference "swift-identified-collections" */;
+			productName = IdentifiedCollections;
+		};
+		A9B8E81A2D8E118300463794 /* SFSafeSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9B8E8192D8E118300463794 /* XCRemoteSwiftPackageReference "SFSafeSymbols" */;
+			productName = SFSafeSymbols;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A9BD6F552D88C4B2001E53CA /* Project object */;
+}
