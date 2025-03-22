@@ -17,7 +17,6 @@ struct MenuItemButton: View {
 
     /// Menu item.
     let item: MenuItem
-    
 
     // MARK: Lifecycle
 
@@ -44,6 +43,7 @@ struct MenuItemButton: View {
                     .font(.subheadline)
                     .fontWeight(.bold)
             }
+            .minimumScaleFactor(0.5)
             .monospaced()
             .padding(4)
             .frame(maxWidth: .infinity, maxHeight: .infinity)
