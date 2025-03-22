@@ -34,13 +34,17 @@ struct OrderView: View {
 
     /// Order body.
     var body: some View {
-        List(order.items, id: \.id) { item in
-            OrderItemView(item: item)
-                .swipeActions(edge: .trailing) {
-                    Button("Delete", systemSymbol: .trashFill, role: .destructive) {
-                        onDelete(item)
-                    }
+        List(order.items.sorted { $0.key.name < $1.key.name }, id: \.key.name) { item, quantity in
+            HStack {
+                Text("\(quantity)x")
+                Spacer()
+                OrderItemView(item: item)
+            }
+            .swipeActions(edge: .trailing) {
+                Button("Delete", systemSymbol: .trashFill, role: .destructive) {
+                    onDelete(item)
                 }
+            }
         }
         .scrollContentBackground(.hidden)
         .scrollIndicators(.hidden)
@@ -54,21 +58,13 @@ struct OrderView: View {
 #Preview("With Items") {
     OrderView(
         order: .init(
-            items: .init(
-                uniqueElements: [
-                    .init(name: "Some Item", cost: 5.0),
-                    .init(name: "Some Item", cost: 5.0),
-                    .init(name: "Some Item", cost: 5.0),
-                    .init(name: "Some Item", cost: 5.0),
-                    .init(
-                        name: "Poutine",
-                        cost: 7.00,
-                        options: [
-                            .init(name: "Bacon Topping", cost: 2.50),
-                        ]
-                    ),
-                ]
-            )
+            items: [
+                OrderItem(name: "Burger", cost: 5.0): 2,
+                OrderItem(name: "Fries", cost: 3.0): 1,
+                OrderItem(name: "Poutine", cost: 7.0, options: [
+                    .init(name: "Bacon Topping", cost: 2.50),
+                ]): 1,
+            ]
         )
     ) { print($0.name) }
 }

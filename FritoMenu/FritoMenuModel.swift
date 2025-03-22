@@ -30,5 +30,5 @@ import SwiftUI
     func clear() { order.clear() }
     /// Delete from order.
     /// - Parameter item: Item.
-    func deleteFromOrder(_ item: OrderItem) { order.delete(item: item) }
+    func deleteFromOrder(_ item: OrderItem) { order.subtract(item: item) }
 }
