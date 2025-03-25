@@ -23,7 +23,13 @@ import SwiftUI
     /// Add to order.
     /// - Parameter item: Item.
     func addToOrder(_ item: MenuItem) {
-        order.add(item: .init(name: item.name, cost: item.price))
+        order.add(
+            item: .init(
+                name: item.name,
+                abbreviation: item.abbreviation ?? item.name.initials,
+                cost: item.price
+            )
+        )
     }
 
     /// Clear order.

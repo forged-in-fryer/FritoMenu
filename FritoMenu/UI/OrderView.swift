@@ -56,15 +56,16 @@ struct OrderView: View {
         order: .init(
             items: .init(
                 uniqueElements: [
-                    .init(name: "Some Item", cost: 5.0),
-                    .init(name: "Some Item", cost: 5.0),
-                    .init(name: "Some Item", cost: 5.0),
-                    .init(name: "Some Item", cost: 5.0),
+                    .init(name: "Some Item", abbreviation: "SI", cost: 5.0),
+                    .init(name: "Some Item", abbreviation: "SI", cost: 5.0),
+                    .init(name: "Some Item", abbreviation: "SI", cost: 5.0),
+                    .init(name: "Some Item", abbreviation: "SI", cost: 5.0),
                     .init(
                         name: "Poutine",
+                        abbreviation: "P",
                         cost: 7.00,
                         options: [
-                            .init(name: "Bacon Topping", cost: 2.50),
+                            .init(name: "Bacon Topping", abbreviation: "BT", cost: 2.50),
                         ]
                     ),
                 ]
