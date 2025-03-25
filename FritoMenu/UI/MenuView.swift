@@ -39,7 +39,7 @@ struct MenuView: View {
     /// Menu body.
     var body: some View {
         ScrollView {
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 84))]) {
+            LazyVGrid(columns: [GridItem(.adaptive(minimum: 110))]) {
                 ForEach(menu.items, id: \.id) { item in
                     MenuItemButton(item: item) { onSelect($0) }
                 }
