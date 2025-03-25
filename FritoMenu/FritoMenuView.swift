@@ -27,7 +27,7 @@ struct FritoMenuView: View {
 
     /// FritoMenu body.
     var body: some View {
-        HStack {
+        HStack(spacing: 0) {
             // Menu
             MenuView(menu: model.menu) { model.addToOrder($0) }
                 .frame(maxWidth: .infinity)
@@ -64,7 +64,7 @@ struct FritoMenuView: View {
                 .buttonStyle(.borderedProminent)
             }
             .padding([.bottom, .horizontal])
-            .frame(width: 288)
+            .frame(width: 320)
             .background(Color(uiColor: .systemGroupedBackground))
         }
     }

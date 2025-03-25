@@ -38,15 +38,12 @@ struct MenuView: View {
 
     /// Menu body.
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 112))]) {
-                ForEach(menu.items, id: \.id) { item in
-                    MenuItemButton(item: item) { onSelect($0) }
-                }
+        LazyHGrid(rows: [GridItem(.adaptive(minimum: 96))]) {
+            ForEach(menu.items, id: \.id) { item in
+                MenuItemButton(item: item) { onSelect($0) }
             }
-            .padding()
         }
-        .scrollIndicators(.hidden)
+        .padding(.bottom)
     }
 }
 

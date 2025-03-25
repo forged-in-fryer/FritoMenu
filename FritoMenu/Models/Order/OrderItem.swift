@@ -13,6 +13,9 @@ import IdentifiedCollections
 struct OrderItem: Equatable, Identifiable {
     // MARK: Properties
 
+    /// Abbreviation.
+    var abbreviation: String
+
     /// Cost.
     var cost: Double
 
@@ -35,10 +38,17 @@ struct OrderItem: Equatable, Identifiable {
     /// Initialize a `OrderItem`.
     /// - Parameters:
     ///   - name: Name.
+    ///   - abbreviation: Abbreviation.
     ///   - cost: Cost.
     ///   - options: Options.
-    init(name: String, cost: Double, options: IdentifiedArrayOf<Self> = []) {
+    init(
+        name: String,
+        abbreviation: String,
+        cost: Double,
+        options: IdentifiedArrayOf<Self> = []
+    ) {
         self.name = name
+        self.abbreviation = abbreviation
         self.cost = cost
         self.options = options
         id = .init()

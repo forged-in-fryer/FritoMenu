@@ -39,7 +39,10 @@ struct OrderItemView: View {
     /// Main.
     private var main: some View {
         HStack {
-            Text(item.name)
+            ViewThatFits {
+                Text(item.name)
+                Text(item.abbreviation)
+            }
             Spacer()
             Text(item.cost.formatted(.currency(code: Locale.current.currency?.identifier ?? "CAD")))
                 .monospaced()
@@ -74,27 +77,29 @@ struct OrderItemView: View {
 
 #Preview {
     List {
-        OrderItemView(item: .init(name: "Some Item", cost: 4.00))
-        OrderItemView(item: .init(name: "Some Item", cost: 4.00))
+        OrderItemView(item: .init(name: "Some Item", abbreviation: "SI", cost: 4.00))
+        OrderItemView(item: .init(name: "Some Item", abbreviation: "SI", cost: 4.00))
         OrderItemView(
             item: .init(
                 name: "Some Item",
+                abbreviation: "SI",
                 cost: 4.00,
                 options: [
-                    .init(name: "Some Option", cost: 2.00),
-                    .init(name: "Some Option", cost: 2.00),
-                    .init(name: "Some Option", cost: 2.00),
+                    .init(name: "Some Option", abbreviation: "SO", cost: 2.00),
+                    .init(name: "Some Option", abbreviation: "SO", cost: 2.00),
+                    .init(name: "Some Option", abbreviation: "SO", cost: 2.00),
                 ]
             )
         )
         OrderItemView(
             item: .init(
                 name: "Hamburger",
+                abbreviation: "HB",
                 cost: 7.5,
                 options: [
-                    .init(name: "All Dressing", cost: 0),
-                    .init(name: "Extra Patty", cost: 1.5),
-                    .init(name: "Some Option", cost: 2.00),
+                    .init(name: "All Dressing", abbreviation: "AD", cost: 0),
+                    .init(name: "Extra Patty", abbreviation: "EP", cost: 1.5),
+                    .init(name: "Some Option", abbreviation: "SO", cost: 2.00),
                 ]
             )
         )
