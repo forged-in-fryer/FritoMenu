@@ -64,7 +64,7 @@ struct FritoMenuView: View {
                 .buttonStyle(.borderedProminent)
             }
             .padding([.bottom, .horizontal])
-            .frame(width: 352)
+            .frame(width: 300)
             .background(Color(uiColor: .systemGroupedBackground))
         }
     }
